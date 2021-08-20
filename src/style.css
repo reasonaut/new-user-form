@@ -7,4 +7,21 @@ html, body {
 #content {
     display: flex;
     flex-flow: column;
+    align-items: center;
+}
+#registration-form-container {
+    position: relative;
+    text-align: center;
+}
+input, label {
+    margin: 5px;
+}
+input:invalid {
+    box-shadow: 5px 5px pink;
+}
+#submit-button {
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
