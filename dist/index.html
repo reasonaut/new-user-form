@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-        <title>Title</title>
+        <title>Registration Form</title>
     </head>
     <body>
         <div id="content">
@@ -26,6 +26,7 @@
                             name="country"
                             id="country-input"
                             required
+                            minlength="3"
                         /><br />
                         <label for="zip"><b>Zip Code</b></label>
                         <input
@@ -34,6 +35,7 @@
                             name="zip"
                             id="zip-input"
                             required
+                            minlength="4"
                         /><br /><br />
                         <label for="psw"><b>Password</b></label>
                         <input
@@ -42,6 +44,7 @@
                             name="psw"
                             id="psw-input"
                             required
+                            minlength="7"
                         /><br />
                         <label for="psw-repeat"><b>Confirm Password</b></label>
                         <input
@@ -50,6 +53,7 @@
                             name="psw-repeat"
                             id="psw-repeat-input"
                             required
+                            minlength="7"
                         />
                         <button type="submit" id="submit-button" form="registration-form">Submit</button>
                         <br /><br /><br /><br />

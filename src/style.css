@@ -8,12 +8,12 @@ html, body {
     display: flex;
     flex-flow: column;
     align-items: center;
+    padding-top: 40px;
 }
 #registration-form-container {
     position: relative;
     text-align: center;
     border: 2px black solid;
-    overflow: auto;
 }
 #registration-form {
     padding: 0 10px 0 10px;    
@@ -23,6 +23,9 @@ input, label {
 }
 input:invalid {
     box-shadow: 5px 5px pink;
+}
+input:valid {
+    box-shadow: 5px 5px lightgreen;
 }
 #submit-button {
     position: absolute;
