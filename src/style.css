@@ -12,6 +12,11 @@ html, body {
 #registration-form-container {
     position: relative;
     text-align: center;
+    border: 2px black solid;
+    overflow: auto;
+}
+#registration-form {
+    padding: 0 10px 0 10px;    
 }
 input, label {
     margin: 5px;
@@ -20,8 +25,8 @@ input:invalid {
     box-shadow: 5px 5px pink;
 }
 #submit-button {
-    margin: auto;
     position: absolute;
     left: 50%;
+    bottom: 5%;
     transform: translateX(-50%);
 }

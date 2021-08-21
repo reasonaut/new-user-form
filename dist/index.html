@@ -7,50 +7,53 @@
     <body>
         <div id="content">
             <div id="registration-form-container">
-                <form>
-                    <h1>Registration Form</h1>
-                    <p>Fill in this form to create a new account.</p>
-                    <label for="email"><b>Email</b></label>
-                    <input
-                        type="email"
-                        placeholder="Enter Email"
-                        name="email"
-                        id="email-input"
-                        required
-                    /><br />
-                    <label for="country"><b>Country</b></label>
-                    <input
-                        type="text"
-                        placeholder="Enter Country"
-                        name="country"
-                        id="country-input"
-                        required
-                    /><br />
-                    <label for="zip"><b>Zip Code</b></label>
-                    <input
-                        type="text"
-                        placeholder="Enter Zip Code"
-                        name="zip"
-                        id="zip-input"
-                        required
-                    /><br /><br />                    
-                    <label for="psw"><b>Password</b></label>
-                    <input
-                        type="password"
-                        placeholder="Enter Password"
-                        name="psw"
-                        id="psw-input"
-                        required
-                    /><br />
-                    <label for="psw-repeat"><b>Confirm Password</b></label>
-                    <input
-                        type="password"
-                        placeholder="Re-enter Password"
-                        name="psw-repeat"
-                        id="psw-repeat-input"
-                        required
-                    /><br /><br />                    
-                    <button id='submit-button'>Submit</button>
+                <form id="registration-form">
+                    <div>
+                        <h1>Registration Form</h1>
+                        <p>Fill in this form to create a new account.</p>
+                        <label for="email"><b>Email</b></label>
+                        <input
+                            type="email"
+                            placeholder="Enter Email"
+                            name="email"
+                            id="email-input"
+                            required
+                        /><br />
+                        <label for="country"><b>Country</b></label>
+                        <input
+                            type="text"
+                            placeholder="Enter Country"
+                            name="country"
+                            id="country-input"
+                            required
+                        /><br />
+                        <label for="zip"><b>Zip Code</b></label>
+                        <input
+                            type="text"
+                            placeholder="Enter Zip Code"
+                            name="zip"
+                            id="zip-input"
+                            required
+                        /><br /><br />
+                        <label for="psw"><b>Password</b></label>
+                        <input
+                            type="password"
+                            placeholder="Enter Password"
+                            name="psw"
+                            id="psw-input"
+                            required
+                        /><br />
+                        <label for="psw-repeat"><b>Confirm Password</b></label>
+                        <input
+                            type="password"
+                            placeholder="Re-enter Password"
+                            name="psw-repeat"
+                            id="psw-repeat-input"
+                            required
+                        />
+                        <button type="submit" id="submit-button" form="registration-form">Submit</button>
+                        <br /><br /><br /><br />
+                    </div>
                 </form>
             </div>
         </div>
